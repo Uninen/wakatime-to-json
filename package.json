@@ -1,0 +1,33 @@
+{
+  "name": "wakatime-to-json",
+  "version": "0.1.0",
+  "description": "Save your Wakatime data into a JSON file.",
+  "main": "bin/index.js",
+  "bin": {
+    "wakatime-to-json": "./bin/index.js"
+  },
+  "repository": "git@gitlab.com:uninen/wakatime-to-json.git",
+  "author": "Ville Säävuori <ville@unessa.net>",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "axios": "^0.21.1",
+    "commander": "^6.2.1",
+    "cosmiconfig": "^7.0.0",
+    "dayjs": "^1.9.7",
+    "dotenv": "^8.2.0"
+  },
+  "files": [
+    "bin/index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "wakatime",
+    "api",
+    "json"
+  ],
+  "bugs": {
+    "url": "https://gitlab.com/uninen/wakatime-to-json/-/issues"
+  },
+  "homepage": "https://gitlab.com/uninen/wakatime-to-json"
+}
